@@ -1,0 +1,37 @@
+{
+  "dico": "my-dico",
+  "sources": [
+    "src/**/*.(js|jsx)",
+    "src/**/*.(ts|tsx)",
+    "src/**/*.vue"
+  ],
+  "schema": {
+    "form": {
+      "login": {
+        "usernameLabel": "",
+        "usernamePlaceholder": "",
+        "passwordLabel": "",
+        "passwordPlaceholder": ""
+      },
+      "signup": {
+        "usernameLabel": "",
+        "usernamePlaceholder": "",
+        "passwordLabel": "",
+        "passwordPlaceholder": ""
+      }
+    },
+    "errors": {
+      "login": {
+        "usernameNotFound": "",
+        "passwordHelper": "",
+        "wrongPassword": ""
+      },
+      "signup": {
+        "usernameNotFound": "",
+        "passwordHelper": "",
+        "wrongPassword": ""
+      }
+    }
+  },
+  "updated_at": "2021-06-07T11:22:28.195023+00:00"
+}

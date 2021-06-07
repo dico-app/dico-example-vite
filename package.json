@@ -1,0 +1,22 @@
+{
+  "name": "@dico/example-vite",
+  "version": "0.0.0",
+  "description": "Dico.app example with Vite",
+  "private": true,
+  "license": "MIT",
+  "author": "Lucie Haberer <hello@lihbr.com> (https://lihbr.com)",
+  "scripts": {
+    "dev": "dico-fetch && vite --port 3001",
+    "build": "dico-fetch && vite build",
+    "serve": "dico-fetch && vite preview --port 3001"
+  },
+  "dependencies": {
+    "@dico/client": "^0.0.4",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.11",
+    "vite": "^2.3.6"
+  }
+}
