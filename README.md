@@ -6,11 +6,21 @@
 
 ## Install
 
-<!-- TODO: Update -->
+```bash
+npm install
+```
 
 ## Usage
 
-<!-- TODO: Update -->
+Development:
+```bash
+npm run dev
+```
+
+Build:
+```bash
+npm run build
+```
 
 ## Documentation
 
