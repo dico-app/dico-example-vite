@@ -4,10 +4,6 @@
 
 [Dico.app][dico] example with Vite.
 
-- 🔑 &nbsp;Use keys seamlessly;
-- 🎏 &nbsp;Fetch your current dico.
-- 🌐 &nbsp;i18n support.
-
 ## Install
 
 <!-- TODO: Update -->
