@@ -23,7 +23,7 @@ For full documentation, visit the [official Dico.app documentation][dico-docs].
 <!-- Links -->
 
 [dico]: https://dico.app
-[dico-docs]: https://docs.dico.io/vite
+[dico-docs]: https://docs.dico.io/guides/vite
 
 <!-- Badges -->
 
