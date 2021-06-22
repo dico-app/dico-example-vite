@@ -20,17 +20,6 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
-"@dico/client@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@dico/client/-/client-0.0.6.tgz#cd2ceeb617f05840cc444ace3660f0a18094bdd5"
-  integrity sha512-fHFWLQQWZuz/FM7eUbdeoucokwuDkeWN7kt32f+EtY+39haGYx2K1hwt8K/x0HzJhN9tXp/jRxP+X1Uss8LkRw==
-  dependencies:
-    consola "^2.15.3"
-    detect-indent "^6.1.0"
-    exit "^0.1.2"
-    node-fetch "^2.6.1"
-    rc9 "^1.2.0"
-
 "@vitejs/plugin-vue@^1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.2.3.tgz#2e8e008b1cc3a6ad1dfbec75743c7ffd9b4872a6"
@@ -129,11 +118,6 @@ colorette@^1.2.2:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
-consola@^2.15.3:
-  version "2.15.3"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-2.15.3.tgz#2e11f98d6a4be71ff72e0bdf07bd23e12cb61550"
-  integrity sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==
-
 consolidate@^0.16.0:
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/consolidate/-/consolidate-0.16.0.tgz#a11864768930f2f19431660a65906668f5fbdc16"
@@ -151,21 +135,6 @@ csstype@^2.6.8:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.17.tgz#4cf30eb87e1d1a005d8b6510f95292413f6a1c0e"
   integrity sha512-u1wmTI1jJGzCJzWndZo8mk4wnPTZd1eOIYTYvuEyOQGfmDl3TrabCCfKnOC86FZwW/9djqTl933UF/cS425i9A==
 
-defu@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/defu/-/defu-2.0.4.tgz#09659a6e87a8fd7178be13bd43e9357ebf6d1c46"
-  integrity sha512-G9pEH1UUMxShy6syWk01VQSRVs3CDWtlxtZu7A+NyqjxaCA4gSlWAKDBx6QiUEKezqS8+DUlXLI14Fp05Hmpwg==
-
-destr@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/destr/-/destr-1.1.0.tgz#2da6add6ba71e04fd0abfb1e642d4f6763235095"
-  integrity sha512-Ev/sqS5AzzDwlpor/5wFCDu0dYMQu/0x2D6XfAsQ0E7uQmamIgYJ6Dppo2T2EOFVkeVYWjc+PCLKaqZZ57qmLg==
-
-detect-indent@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
-  integrity sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==
-
 emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
@@ -180,16 +149,6 @@ estree-walker@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
-
-exit@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
-  integrity sha1-BjJjj42HfMghB9MKD/8aF8uhzQw=
-
-flat@^5.0.0:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/flat/-/flat-5.0.2.tgz#8ca6fe332069ffa9d324c327198c598259ceb241"
-  integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
 
 fsevents@~2.3.1, fsevents@~2.3.2:
   version "2.3.2"
@@ -289,11 +248,6 @@ nanoid@^3.1.23:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
   integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
 
-node-fetch@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-
 path-parse@^1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
@@ -371,15 +325,6 @@ postcss@^8.3.4:
     colorette "^1.2.2"
     nanoid "^3.1.23"
     source-map-js "^0.6.2"
-
-rc9@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/rc9/-/rc9-1.2.0.tgz#ef098181fdde714efc4c426383d6e46c14b1254a"
-  integrity sha512-/jknmhG0USFAx5uoKkAKhtG40sONds9RWhFHrP1UzJ3OvVfqFWOypSUpmsQD0fFwAV7YtzHhsn3QNasfAoxgcQ==
-  dependencies:
-    defu "^2.0.4"
-    destr "^1.0.0"
-    flat "^5.0.0"
 
 resolve@^1.20.0:
   version "1.20.0"
