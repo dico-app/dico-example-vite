@@ -5,16 +5,16 @@
     <h2>Login</h2>
 
     <label>
-      {{ $dico.form.login.usernameLabel }}
-      <input type="text" :placeholder="$dico.form.login.usernamePlaceholder" />
+      Email
+      <input type="text" placeholder="john@example.com" />
     </label>
 
     <label>
-      {{ $dico.form.login.passwordLabel }}
-      <input type="password" :placeholder="$dico.form.login.passwordPlaceholder" />
+      Password
+      <input type="password" placeholder="************" />
     </label>
 
-    <button type="submit">{{ $dico.form.login.submitLabel }}</button>
+    <button type="submit">Login</button>
 
   </form>
 </section>
@@ -58,6 +58,7 @@ section {
 form {
   border-radius: 1rem;
   background: rgb(238, 188, 96);
+  border: 2px solid rgb(206, 163, 83);
   padding: 1rem;
 }
 
