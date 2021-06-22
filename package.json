@@ -6,11 +6,12 @@
   "license": "MIT",
   "author": "Lucie Haberer <hello@lihbr.com> (https://lihbr.com)",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "dico-fetch && vite",
+    "build": "dico-fetch && vite build",
+    "serve": "dico-fetch && vite preview"
   },
   "dependencies": {
+    "@dico/client": "0.0.6",
     "vue": "^3.1.1"
   },
   "devDependencies": {
