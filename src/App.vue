@@ -2,19 +2,19 @@
 <section>
   <form method="POST" action="#">
 
-    <h2>Login</h2>
+    <h2>{{ $dico.login.title }}</h2>
 
     <label>
-      Email
-      <input type="text" placeholder="john@example.com" />
+      {{ $dico.login.emailLabel }}
+      <input type="text" :placeholder="$dico.login.emailPlaceholder" />
     </label>
 
     <label>
-      Password
-      <input type="password" placeholder="************" />
+      {{ $dico.login.passwordLabel }}
+      <input type="password" :placeholder="$dico.login.passwordPlaceholder" />
     </label>
 
-    <button type="submit">Login</button>
+    <button type="submit">{{ $dico.login.submitLabel }}</button>
 
   </form>
 </section>
@@ -22,7 +22,14 @@
 </template>
 
 <script>
-  export default {};
+  import { useDico } from './dico';
+
+  export default {
+    setup() {
+      const { $dico } = useDico();
+      return { $dico };
+    },
+  };
 </script>
 
 <style>
