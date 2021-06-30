@@ -2,7 +2,7 @@
 <section>
   <form method="POST" action="#">
 
-    <h2>{{ $dico.login.title }}</h2>
+    <h2>{{ $dico.login.formTitle }}</h2>
 
     <label>
       {{ $dico.login.emailLabel }}
